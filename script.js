@@ -51,7 +51,6 @@ app.post("/create", async function(req, res){
     }
 });
 
-const port = 9999;
-app.listen(port, () => {
-    console.log(`Server is up and running on port : ${port}`);
+app.listen(9999, () => {
+    console.log(`Server is up and running on port : 9999`);
 });
